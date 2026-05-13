@@ -2,7 +2,7 @@ import Live
 from typing import Tuple, Any, List, Optional
 from .handler import AbletonOSCHandler
 
-CATEGORIES = ("instruments", "drums", "sounds")
+CATEGORIES = ("instruments", "drums", "sounds", "audio_effects", "midi_effects")
 
 
 class BrowserHandler(AbletonOSCHandler):
