@@ -98,6 +98,7 @@ class Manager(ControlSurface):
                 abletonosc.TrackHandler(self),
                 abletonosc.DeviceHandler(self),
                 abletonosc.BrowserHandler(self),
+                abletonosc.AutomationHandler(self),
                 abletonosc.ViewHandler(self),
                 abletonosc.SceneHandler(self),
                 abletonosc.MidiMapHandler(self),

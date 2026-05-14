@@ -11,6 +11,7 @@ from .clip_slot import ClipSlotHandler
 from .track import TrackHandler
 from .device import DeviceHandler
 from .browser import BrowserHandler
+from .automation import AutomationHandler
 from .scene import SceneHandler
 from .view import ViewHandler
 from .midimap import MidiMapHandler
